@@ -3,6 +3,7 @@
 
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
 int N;
 int i = 1;
 
@@ -10,6 +11,6 @@ Console.Write("Введите число N: ");
 N = Convert.ToInt16(Console.ReadLine());
 while (i<=N)
 {
-    if (i%2 ==0) Console.WriteLine(Convert.ToString(i));
+    if (i%2 ==0) Console.WriteLine(i);
     i++;
 };
